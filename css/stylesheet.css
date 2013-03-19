@@ -1,0 +1,101 @@
+/*
+- Page
+  Skip
+*/
+
+html {
+  font-size: 62.5%;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+dl,
+dd,
+th,
+td,
+form,
+fieldset,
+input,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+}
+aside,
+figcaption,
+figure,
+footer,
+header,
+section,
+nav {
+  display: block;
+}
+
+body {
+  background: #FFF;
+  color: #000;
+  font-family: Arial, "Helvetica Neue", Helvetica, FreeSans, sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+}
+
+input,
+select,
+textarea,
+button {
+  color: inherit;
+  font-family: inherit;
+  font-size: 100%;
+}
+label input,
+select,
+button {
+  cursor: pointer;
+}
+
+img {
+  border: 0;
+}
+
+a:active,
+a:focus {
+  position: relative;
+  top: 1px;
+}
+
+.hideme {
+  display: none;
+}
+.num {
+  text-align: right;
+}
+.nobr {
+  white-space: nowrap;
+}
+.important {
+  color: #F00;
+}
+
+/* ________________________________________________________Page___ */
+
+div#page {
+  
+}
+
+/* ___Skip__________________________ */
+
+p#skip {
+  left: -999em;
+  position: absolute;
+}
+@media print {
+  p#skip {
+    display: none;
+  }
+}
